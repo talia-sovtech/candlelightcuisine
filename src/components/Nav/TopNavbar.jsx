@@ -28,7 +28,7 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
           <img src={LogoIcon} alt="logo" className="logo"/>
-            <h1 style={{ marginLeft: "15px", paddingTop: "5rem"}} className="font20 extraBold purpleColor">
+            <h1 style={{ marginLeft: "15px", paddingTop: "3rem"}} className="font20 extraBold purpleColor">
               Candlelight Cuisine
             </h1>
           </Link>
@@ -74,7 +74,7 @@ export default function TopNavbar() {
               </a>
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+              <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px", width: '100%ß'}}>
                 Sign Up
               </a>
             </li>
