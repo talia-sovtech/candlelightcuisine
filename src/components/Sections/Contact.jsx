@@ -33,21 +33,6 @@ export default function Contact() {
                 <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
-                <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius6" />
-                </ContactImgBox>
-                <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
-                </ContactImgBox>
-              </div>
-              <div style={{ width: "50%" }}>
-                <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -85,8 +70,8 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #361541;
+  background-color: #361541;
   width: 100%;
   padding: 15px;
   outline: none;
