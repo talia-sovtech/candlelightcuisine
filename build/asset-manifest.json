@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.170ee165.chunk.css",
+    "main.js": "/static/js/main.83f1f344.chunk.js",
+    "main.js.map": "/static/js/main.83f1f344.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c3344927.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c3344927.js.map",
+    "static/css/2.65f8c46c.chunk.css": "/static/css/2.65f8c46c.chunk.css",
+    "static/js/2.53015da3.chunk.js": "/static/js/2.53015da3.chunk.js",
+    "static/js/2.53015da3.chunk.js.map": "/static/js/2.53015da3.chunk.js.map",
+    "static/js/3.30452a93.chunk.js": "/static/js/3.30452a93.chunk.js",
+    "static/js/3.30452a93.chunk.js.map": "/static/js/3.30452a93.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.65f8c46c.chunk.css.map": "/static/css/2.65f8c46c.chunk.css.map",
+    "static/css/main.170ee165.chunk.css.map": "/static/css/main.170ee165.chunk.css.map",
+    "static/js/2.53015da3.chunk.js.LICENSE.txt": "/static/js/2.53015da3.chunk.js.LICENSE.txt",
+    "static/media/EskomSePush.cb5f6705.webp": "/static/media/EskomSePush.cb5f6705.webp",
+    "static/media/checkers60.56ac0860.png": "/static/media/checkers60.56ac0860.png",
+    "static/media/header-img.d3d5ec21.jpg": "/static/media/header-img.d3d5ec21.jpg",
+    "static/media/logo.8050dbf2.png": "/static/media/logo.8050dbf2.png",
+    "static/media/logo03.ed39a486.svg": "/static/media/logo03.ed39a486.svg",
+    "static/media/logo04.d4601325.svg": "/static/media/logo04.d4601325.svg",
+    "static/media/logo05.e583f97d.svg": "/static/media/logo05.e583f97d.svg",
+    "static/media/logo06.7fcfefca.svg": "/static/media/logo06.7fcfefca.svg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3344927.js",
+    "static/css/2.65f8c46c.chunk.css",
+    "static/js/2.53015da3.chunk.js",
+    "static/css/main.170ee165.chunk.css",
+    "static/js/main.83f1f344.chunk.js"
+  ]
+}

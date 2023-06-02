@@ -29,7 +29,6 @@ export default function Header() {
           <BtnWrapper>
             <Link to="/signup" className="btn btn-primary">Signup</Link>
             <FullButton action = {() => <SignUp/>}className="signin-button" title="Let's get cooking ➡"  />
-            {/* <Link to={'/signup'} className="signin-button">Sign Up</Link> */}
           </BtnWrapper>
             {/* <QuotesWrapper>
               <QuotesIcon />
