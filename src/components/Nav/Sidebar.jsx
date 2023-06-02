@@ -113,8 +113,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </a>
         </li>
         <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-            Get Started
+          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px", color: '#6A287E' }}>
+          Let's get cooking!
           </a>
         </li>
       </UlStyle>

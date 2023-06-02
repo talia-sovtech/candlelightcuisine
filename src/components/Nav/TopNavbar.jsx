@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
-import LogoIcon from "../../assets/svg/Logo";
+import LogoIcon from "../../assets/img/logo.png";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
 export default function TopNavbar() {
@@ -27,9 +27,9 @@ export default function TopNavbar() {
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <LogoIcon />
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
-              fanatic
+          <img src={LogoIcon} alt="logo" className="logo"/>
+            <h1 style={{ marginLeft: "15px", paddingTop: "5rem"}} className="font20 extraBold purpleColor">
+              Candlelight Cuisine
             </h1>
           </Link>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
@@ -75,7 +75,7 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer flexCenter">
               <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-                Get Started
+                Sign Up
               </a>
             </li>
           </UlWrapperRight>

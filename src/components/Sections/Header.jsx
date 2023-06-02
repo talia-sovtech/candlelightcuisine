@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/header-img.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -12,20 +12,19 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60 purpleColor">Recipes in a flash, before the lights crash</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          With convenience provided by AI-powered ingredient identification, this platform generates personalized meal suggestions tailored to each user’s unique preferences, needs and available ingredients. By taking into consideration factors such as meal preferences, dietary restrictions, available cooking time, and household appliances, our solution offers a customized experience that caters to the specific requirements of each individual while being aligned to your load-shedding schedule!
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <FullButton title="Let's get cooking!" style={{backgroundColor: "#6A287E"}} />
           </BtnWrapper>
         </div>
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
-          <QuoteWrapper className="flexCenter darkBg radius8">
+          <Img className="dining-image" src={HeaderImage} alt="office" />
+          <QuoteWrapper className="flexCenter purpleBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
@@ -36,11 +35,7 @@ export default function Header() {
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
             </div>
           </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
     </Wrapper>
   );

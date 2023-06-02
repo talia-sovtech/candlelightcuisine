@@ -66,7 +66,7 @@ export default function Services() {
                   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
+                  <div style={{ width: "190px" , backgroundColor: '#6A287E'}}>
                     <FullButton title="Get Started" action={() => alert("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>

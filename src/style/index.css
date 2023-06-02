@@ -17,6 +17,7 @@
     vertical-align: baseline;
     box-sizing: border-box;
   }
+
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
@@ -42,7 +43,7 @@
     color: #0B093B;
   }
   a:hover {
-    color: #7620FF;
+    color: #6A287E;
   }
   input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
@@ -104,8 +105,8 @@
     width: 100%;
   }
   .active {
-    border-bottom: 2px solid #7620FF;
-    color: #7620FF;
+    border-bottom: 2px solid #6A287E;
+    color: #6A287E;
   }
   .tag {
     padding: 5px 10px;
@@ -212,6 +213,10 @@
       font-size: 2.8rem;
     }
   }
+  .dining-image {
+    width: 80%;
+    border-radius: 1rem;
+  }
   /* BORDER RADIUS */
   .radius8 {
     border-radius: 1rem;
@@ -224,7 +229,7 @@
     color: #0B093B;
   }
   .purpleColor {
-    color: #7620FF;
+    color: #361541;
   }
   .orangeColor {
     color: #F2B300;
@@ -249,7 +254,7 @@
     background-color: #0B093B;
   }
   .purpleBg {
-    background-color: #7620FF;
+    background-color: #361541;
   }
   .orangeBg {
     background-color: #F2B300;
@@ -269,3 +274,9 @@
   .whiteBg {
     background-color: #fff;
   }
+
+  .logo {
+    width: 20%;
+    padding-top: 4rem;
+  }
+
